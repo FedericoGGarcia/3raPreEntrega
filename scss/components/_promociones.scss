@@ -1,0 +1,87 @@
+.container-main {
+    margin-top: 5%;
+
+    .container-grid {
+        width: 50%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-rows: 200px 200px 200px 300px;
+        gap: 30px;
+
+        .div-promociones {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+            margin-bottom: 30px;
+            text-decoration: overline white;
+
+            .promociones {
+                color: white;
+                font-size: 40px;
+                font-weight: 500;
+
+                @media only screen and (min-width:451px)and (max-width:960px) {
+                    color: white;
+                    font-size: 20px;
+                    font-weight: 500;
+                }
+
+                @media only screen and (max-width:450px) {
+                    color: white;
+                    font-size: 20px;
+                    font-weight: 500;
+                }
+
+            }
+        }
+
+        .promo {
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+
+                @media only screen and (min-width:451px)and (max-width:960px) {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+
+                @media only screen and (max-width:450px) {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+        }
+
+        .parrafo-pagos {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+            margin-bottom: 30px;
+
+            .pagos {
+                color: white;
+                font-size: 20px;
+                font-weight: 300;
+            }
+        }
+
+        @media only screen and (min-width:451px)and (max-width:960px) {
+            width: 80%;
+            margin-top: 10px;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 150px 150px 150px 150px;
+        }
+
+        @media only screen and (max-width:450px) {
+            width: 80%;
+            margin-top: 10px;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 150px 150px 150px 150px;
+        }
+    }
+}

@@ -1,0 +1,1099 @@
+/* reseteamos el valor por defecto de margin y padding del HTML */
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+/* -------------Body-------------- */
+.body {
+    background-image: url(multimedia/fondo-2.jpg);
+    height: 100vh;
+    background-repeat: repeat;
+    background-position: center center;
+    width: 100%;
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+
+
+}
+
+
+/*    -------------------Logo Header --------------------------*/
+
+
+/*--------------------BANNER----------------------*/
+.div-masc {
+    width: 90%;
+    height: 100%;
+    padding: 2px;
+    overflow: hidden;
+    margin-top: 40px;
+
+
+}
+
+.imagen-masc {
+    width: 100%;
+    padding: center;
+    margin-top: -200px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*---------Zona navegable------------- */
+
+.background-nav {
+    background-color: black;
+}
+
+.div-flow-titulo {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 150%;
+    margin-top: 45px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: overline white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+/*---------------seccion 1-------------------*/
+
+.todos-los-shows {
+    border: solid 0px white;
+    display: flex;
+    margin-right: 2%;
+    margin-left: 7%;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.show-1 {
+    width: 99%;
+    border: solid 4px white;
+}
+
+.show-2 {
+    width: 99%;
+    border: solid 4px white;
+}
+
+.show-3 {
+    width: 99%;
+    border: solid 4px white;
+}
+
+.div-shows {
+    color: white;
+    width: 80%;
+    border: solid 0px white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.proximos-shows {
+    color: white;
+
+}
+
+/*--------------seccion 2----------------*/
+
+video {
+    width: 100%;
+    padding: center;
+    overflow: hidden;
+    margin-top: -100px;
+
+}
+
+.video-div {
+    width: 80%;
+    display: inline-block;
+    overflow: hidden;
+    margin-top: 10%;
+    margin-left: 8%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    height: 100%;
+}
+
+
+
+/*----------------------footer-------------------*/
+.footer {
+    margin-top: auto;
+}
+
+.mb-4 {
+    font-size: 80%;
+}
+
+.logos:hover {
+    width: 20px;
+    transform: scale(1.3);
+    transition: all 1s;
+
+}
+
+.m-1 {
+    width: 40px;
+
+}
+
+/*---------------Eventos.html---------------*/
+.div-proximos-shows {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    opacity: 80%;
+    border-radius: 40px;
+}
+
+.h2-shows {
+    font-size: 30px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+/*-----------shows imagenes--------------*/
+
+/*-------------show 1--------------------*/
+.div-imagen-polaco {
+    margin-top: 30px;
+    background-color: black;
+    opacity: 70%;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.imagen-polaco {
+    width: 50%;
+}
+
+.div-titulo-polaco {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+
+
+}
+
+.titulo-polaco {
+
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    text-decoration: overline;
+}
+
+.div-parrafo-polaco {
+    width: 20%;
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 1050px;
+
+}
+
+.parrafo-polaco {
+    font-size: 20px;
+    color: white;
+}
+
+/*---------------show 2--------------------*/
+.div-imagen-damasgratis {
+    margin-top: 30px;
+    background-color: black;
+    opacity: 70%;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: end;
+
+}
+
+.imagen-damasgratis {
+    width: 50%;
+}
+
+.div-titulo-damasgratis {
+    display: flex;
+    justify-content: end;
+    margin-top: 50px;
+
+}
+
+.titulo-damasgratis {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    margin-right: 50px;
+    text-decoration: overline;
+}
+
+.div-parrafo-damasgratis {
+    width: 20%;
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 35px;
+}
+
+.parrafo-damasgratis {
+    font-size: 20px;
+    color: white;
+}
+
+/*---------------show 3--------------------*/
+
+.div-imagen-karina {
+    margin-top: 30px;
+    background-color: black;
+    opacity: 70%;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.imagen-karina {
+    width: 50%;
+
+}
+
+
+.div-titulo-karina {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+
+
+}
+
+.titulo-karina {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    text-decoration: overline;
+}
+
+.div-parrafo-karina {
+    width: 20%;
+    position: absolute;
+    margin-top: -290px;
+    margin-left: 1050px;
+
+}
+
+.parrafo-karina {
+    font-size: 20px;
+    color: white;
+}
+
+/*---------------show 4--------------------*/
+
+.div-imagen-callejero {
+    margin-top: 30px;
+    background-color: black;
+    opacity: 70%;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 50px;
+
+}
+
+.imagen-callejero {
+    width: 50%;
+}
+
+.div-titulo-callejero {
+    display: flex;
+    justify-content: end;
+    margin-top: 50px;
+
+}
+
+.titulo-callejero {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    margin-right: 50px;
+    text-decoration: overline;
+}
+
+.div-parrafo-callejero {
+    width: 20%;
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 35px;
+}
+
+.parrafo-callejero {
+    font-size: 20px;
+    color: white;
+}
+
+h3:hover {
+    transform: scale(1.3);
+    transition: all 1.5s;
+    color: yellow;
+}
+
+/*------------------Promociones html-------------*/
+
+.div-promociones {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-decoration: overline white;
+
+}
+
+.promociones {
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.container-main {
+    margin-top: 5%;
+}
+
+.container-grid {
+    width: 50%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 200px 200px 200px 300px;
+    gap: 30px;
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.parrafo-pagos {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.pagos {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/*------------------Ubicacion html-------------*/
+
+.div-mapa {
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 60%;
+}
+
+.mapa {
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+.div-ubicacion {
+    margin-top: 50px;
+    width: 40%;
+    margin-left: 40px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    opacity: 80%;
+    border-radius: 20px;
+
+}
+
+.ubicacion-titulo {
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+}
+
+.div-direccion {
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    margin-left: 80px;
+    margin-top: -495px;
+    position: absolute;
+}
+
+.direccion {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    margin-right: 100px;
+    text-decoration: underline;
+}
+
+.div-parrafo-direccion {
+    width: 20%;
+    display: flex;
+    justify-content: end;
+    margin-left: 690px;
+    margin-top: -420px;
+    position: absolute;
+
+}
+
+.parrafo-direccion {
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.div-comollegar {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.comollegar {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/*------------------contacto-------------*/
+.form {
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 50px;
+}
+
+li {
+    list-style: none;
+
+}
+
+input {
+    border-radius: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+textarea {
+    resize: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.div-enviar {
+    border: solid 1px;
+    width: 20%;
+}
+
+.enviar {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.div-contactanos {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.contactanos {
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    margin-right: 320px;
+}
+
+.consultas {
+    color: white;
+    font-size: 25px;
+    margin-right: 600px;
+}
+
+.imagenes-redes {
+    align-items: center;
+    width: 50px;
+    height: 400px;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: -350px;
+}
+
+.logo-wsp {
+    width: 80px;
+
+}
+
+.logo-instagram {
+    width: 80px;
+}
+
+.logo-facebook {
+    width: 35px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.parrafo-redes {
+    align-items: center;
+    width: 250px;
+    height: 400px;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: -330px;
+    color: white;
+
+}
+
+.numero {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.insta {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 60px;
+}
+
+.face {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 60px;
+
+}
+
+.div-nota-pie {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 99%;
+    position: relative;
+}
+
+.nota-pie {
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 30px;
+
+}
+
+
+/*----------@media query-----------------*/
+
+@media only screen and (max-width:450px) {
+
+    .div-masc {
+        width: 100%;
+
+
+    }
+
+    .imagen-masc {
+        width: 90%;
+        height: 90%;
+        padding: 2px;
+        overflow: hidden;
+        margin-left:  15px;
+        margin-top: 2px;
+
+    }
+
+    .todos-los-shows {
+        border: solid 0px white;
+        margin-top: 50px;
+    }
+
+    .show-1 {
+        width: 100%;
+        border: solid 1px white;
+    }
+
+    .show-2 {
+        width: 100%;
+        border: solid 1px white;
+    }
+
+    .show-3 {
+        width: 100%;
+        border: solid 1px white;
+    }
+
+    .div-shows {
+        color: white;
+        width: 80%;
+        border: solid 0px white;
+
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+
+    .proximos-shows {
+        color: white;
+        margin-top: 5px;
+        font-size: 20px;
+        margin-bottom: 0;
+
+    }
+
+
+
+    h1 {
+        font-size: 70%;
+        margin-top: 20px;
+        color: white;
+        font-weight: 400;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: overline white;
+    }
+
+
+
+    video {
+        width: 100%;
+        height: 200px;
+        padding: center;
+
+
+
+    }
+
+    .video-div {
+        width: 90%;
+        display: inline-block;
+        overflow: hidden;
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 0%;
+        margin-bottom: 5%;
+        height: 100%;
+    }
+
+
+    .container{
+       margin-bottom: 50px;
+       margin-top: 200px;
+    }
+
+
+
+    .body {
+        background-image: url(multimedia/fondo-2.jpg);
+        height: 100%;
+        background-repeat: repeat;
+        background-position: center center;
+        width: 100%;
+        background-size: cover;
+        font-family: 'Oswald', sans-serif;
+        }
+    /*---Promociones ---*/
+
+    .container-grid {
+        width: 80%;
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px 150px 150px 150px;
+
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+
+    }
+    .promociones {
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+    
+/*----------------EVENTOS-------------*/
+}
+
+.div-parrafo-polaco {
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+.parrafo-polaco {
+    font-size: 10px;
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.div-parrafo-damasgratis {
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 15px;
+}
+
+.parrafo-damasgratis {
+    font-size: 10px;
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.div-parrafo-karina {
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 15px;
+
+}
+
+.parrafo-karina {
+    font-size: 10px;
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+.div-parrafo-callejero {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+
+.parrafo-callejero {
+    font-size: 10px;
+    margin-top: -100px;
+    color: white;
+}
+
+.div-imagen-callejero {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    background-color: black;
+    opacity: 70%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+
+.div-proximos-shows {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    opacity: 80%;
+    border-radius: 40px;
+    margin-left:10px ;
+    margin-right: 10px;
+}
+
+.h2-shows {
+    font-size: 20px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+.div-titulo {
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: overline;
+    margin-bottom: 20px;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+.titulos{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 10px;
+    margin-left: 20px;
+    text-decoration: overline;
+
+}
+
+}
+
+@media only screen and (min-width:451px)and (max-width:960px){
+    .container-grid { 
+        width: 70%;
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px 200px 200px 200px;
+       
+    }
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+}
+
+.div-masc {
+    width: 100%;
+
+
+}
+
+.imagen-masc {
+    width: 90%;
+    height: 90%;
+    padding: 2px;
+    overflow: hidden;
+    margin-left:  15px;
+    margin-top: 2px;
+
+}
+
+.todos-los-shows {
+    border: solid 0px white;
+    margin-top: 50px;
+}
+
+.show-1 {
+    width: 100%;
+    border: solid 1px white;
+}
+
+.show-2 {
+    width: 100%;
+    border: solid 1px white;
+}
+
+.show-3 {
+    width: 100%;
+    border: solid 1px white;
+}
+
+.div-shows {
+    color: white;
+    width: 80%;
+    border: solid 0px white;
+
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.proximos-shows {
+    color: white;
+    margin-top: 5px;
+    font-size: 20px;
+    margin-bottom: 0;
+
+}
+
+
+
+h1 {
+    font-size: 120%;
+    margin-top: 20px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: overline white;
+}
+
+
+
+video {
+    width: 100%;
+    height: 400px;
+    padding: center;
+
+
+
+}
+
+.video-div {
+    width: 90%;
+    display: inline-block;
+    overflow: hidden;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 0%;
+    margin-bottom: 5%;
+    height: 100%;
+}
+
+
+.container{
+   margin-bottom: 50px;
+   margin-top: 200px;
+}
+
+
+
+.body {
+    background-image: url(multimedia/fondo-2.jpg);
+    height: 100%;
+    background-repeat: repeat;
+    background-position: center center;
+    width: 100%;
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+    }
+/*---Promociones ---*/
+
+.container-grid {
+    width: 80%;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 150px 150px 150px;
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+.promociones {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+
+/*----------------EVENTOS-------------*/
+}
+
+.div-parrafo-polaco {
+width: 100%;
+margin-top: 0px;
+margin-left: 15px;
+margin-right: 30px;
+
+}
+
+.parrafo-polaco {
+font-size: 20px;
+color: white;
+margin-left: 15px;
+margin-right: 30px;
+}
+
+.div-parrafo-damasgratis {
+width: 100%;
+margin-top: 0px;
+margin-left: 30px;
+}
+
+.parrafo-damasgratis {
+font-size: 20px;
+color: white;
+margin-left: 15px;
+margin-right: 30px;
+}
+
+.div-parrafo-karina {
+width: 100%;
+margin-top: 0px;
+margin-left: 15px;
+margin-right: 30px;
+
+}
+
+.parrafo-karina {
+font-size: 20px;
+color: white;
+margin-left: 15px;
+margin-right: 30px;
+}
+
+
+.div-parrafo-callejero {
+width: 100%;
+margin-top: 30px;
+margin-left: 15px;
+margin-right: 30px;
+
+}
+
+.parrafo-callejero {
+font-size: 20px;
+margin-top: -100px;
+color: white;
+}
+
+.div-imagen-callejero {
+margin-top: 30px;
+margin-bottom: 100px;
+background-color: black;
+opacity: 70%;
+margin-left: 20px;
+display: flex;
+justify-content: end;
+}
+
+
+.div-proximos-shows {
+margin-top: 50px;
+display: flex;
+justify-content: center;
+background-color: gray;
+opacity: 80%;
+border-radius: 40px;
+margin-left:10px ;
+margin-right: 10px;
+}
+
+.h2-shows {
+font-size: 40px;
+color: white;
+font-family: 'Oswald', sans-serif;
+font-weight: 300;
+}
+
+.div-titulo {
+color: white;
+display: flex;
+justify-content: center;
+text-decoration: overline;
+margin-bottom: 20px;
+margin-top: 70px;
+margin-left: 20px;
+}
+
+.titulos{
+color: white;
+font-size: 30px;
+font-weight: 400;
+margin-right: 10px;
+margin-left: 20px;
+text-decoration: overline;
+margin-bottom: 20px;
+margin-top: 30px;
+
+}
+
+}

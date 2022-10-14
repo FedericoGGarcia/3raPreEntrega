@@ -1,0 +1,218 @@
+@import 'components/header';
+@import 'base/EstilosGenerales';
+@import 'components/footer';
+@import 'components/eventos';
+@import 'components/promociones';
+@import 'components/contacto';
+@import 'components/ubicacion';
+
+
+
+main {
+
+    .div-flow-titulo {
+        display: flex;
+        justify-content: center;
+
+
+        h1 {
+            font-size: 150%;
+            margin-top: 45px;
+            color: white;
+            font-weight: 400;
+            font-family: 'Oswald', sans-serif;
+            text-decoration: overline white;
+
+            @media only screen and (min-width:451px)and (max-width:960px) {
+                font-size: 120%;
+                margin-top: 20px;
+                color: white;
+                font-weight: 400;
+                font-family: 'Oswald', sans-serif;
+                text-decoration: overline white;
+            }
+
+            @media only screen and (max-width:450px) {
+                font-size: 70%;
+                margin-top: 20px;
+                color: white;
+                font-weight: 400;
+                font-family: 'Oswald', sans-serif;
+                text-decoration: overline white;
+            }
+        }
+
+    }
+
+    .div-masc {
+        width: 90%;
+        height: 100%;
+        padding: 2px;
+        overflow: hidden;
+        margin-top: 40px;
+
+        .imagen-masc {
+            width: 100%;
+            padding: center;
+            margin-top: -200px;
+            margin-left: 10%;
+            margin-right: 10%;
+
+            @media only screen and (min-width:451px)and (max-width:960px) {
+                width: 90%;
+                height: 90%;
+                padding: 2px;
+                overflow: hidden;
+                margin-left: 15px;
+                margin-top: 2px;
+            }
+
+            @media only screen and (max-width:450px) {
+                width: 90%;
+                height: 90%;
+                padding: 2px;
+                overflow: hidden;
+                margin-left: 15px;
+                margin-top: 2px;
+            }
+        }
+
+        @media only screen and (min-width:451px)and (max-width:960px) {
+            width: 100%;
+        }
+
+        @media only screen and (max-width:450px) {
+            width: 100%;
+
+        }
+    }
+
+    section {
+        .div-shows {
+            color: white;
+            width: 80%;
+            border: solid 0px white;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 5%;
+            margin-left: 5%;
+
+            .proximos-show {
+                color: white;
+
+                @media only screen and (max-width:960px) {
+                    color: white;
+                    margin-top: 5px;
+                    font-size: 20px;
+                    margin-bottom: 0;
+                }
+            }
+
+            @media only screen and (max-width:960px) {
+                color: white;
+                width: 80%;
+                border: solid 0px white;
+
+                margin-top: 5%;
+                margin-left: 5%;
+            }
+        }
+
+        .todos-los-shows {
+            border: solid 0px white;
+            display: flex;
+            margin-right: 2%;
+            margin-left: 7%;
+            overflow: hidden;
+            margin-top: 10px;
+
+            .shows {
+
+
+                .show-1 {
+                    width: 99%;
+                    border: solid 4px white;
+
+                    @media only screen and (max-width:960px) {
+                        width: 100%;
+                        border: solid 1px white;
+                    }
+                }
+            }
+
+            .shows {
+                .show-2 {
+                    width: 99%;
+                    border: solid 4px white;
+
+                    @media only screen and (max-width:960px) {
+                        width: 100%;
+                        border: solid 1px white;
+                    }
+                }
+            }
+
+            .shows {
+                .show-3 {
+                    width: 99%;
+                    border: solid 4px white;
+
+                    @media only screen and (max-width:960px) {
+                        width: 100%;
+                        border: solid 1px white;
+                    }
+                }
+
+            }
+
+            @media only screen and (max-width:960px) {
+                border: solid 0px white;
+                margin-top: 50px;
+            }
+        }
+    }
+
+    section {
+        .video-div {
+            width: 80%;
+            display: inline-block;
+            overflow: hidden;
+            margin-top: 10%;
+            margin-left: 8%;
+            margin-right: 5%;
+            margin-bottom: 10%;
+            height: 100%;
+
+            .video {
+                width: 100%;
+                padding: center;
+                overflow: hidden;
+                margin-top: -100px;
+
+                @media only screen and (min-width:451px)and (max-width:960px) {
+                    width: 100%;
+                    height: 400px;
+                    padding: center;
+                }
+
+                @media only screen and (max-width:450px) {
+                    width: 100%;
+                    height: 250px;
+                    padding: center;
+                }
+            }
+
+            @media only screen and (max-width:960px) {
+                width: 90%;
+                display: inline-block;
+                overflow: hidden;
+                margin-top: 5%;
+                margin-left: 5%;
+                margin-right: 0%;
+                margin-bottom: 5%;
+                height: 100%;
+            }
+
+        }
+    }
+}

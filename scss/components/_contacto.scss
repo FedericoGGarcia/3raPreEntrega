@@ -1,0 +1,217 @@
+.div-contactanos {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    .contactanos {
+        color: white;
+        font-size: 25px;
+        font-weight: 500;
+        margin-right: 320px;
+    }
+
+    .consultas {
+        color: white;
+        font-size: 25px;
+        margin-right: 600px;
+    }
+}
+
+
+.form {
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 50px;
+
+    ul {
+
+
+        li {
+            list-style: none;
+        }
+
+        input {
+            border-radius: 10px;
+            font-family: 'Oswald', sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+        
+            @media only screen and (min-width:451px)and (max-width:960px) {
+                border-radius: 10px;
+                font-family: 'Oswald', sans-serif;
+                font-size: 7px;
+                font-weight: 400;
+            }
+        }
+
+        textarea {
+            resize: none;
+            font-family: 'Oswald', sans-serif;
+            font-size: 14px;
+            font-weight: 300;
+        }
+
+        .div-enviar {
+            border: solid 1px;
+            width: 20%;
+
+            .enviar {
+                font-weight: 600;
+                font-size: 18px;
+                @media only screen and (max-width:450px){font-weight: 600;
+                    font-size: 8px;}
+                @media only screen and (min-width:451px)and (max-width:960px) {
+                    font-weight: 600;
+                    font-size: 10px;
+                }
+            }
+        }
+
+    }
+    @media only screen and (max-width:450px){ margin-top: 10px;
+        width: 5%;
+        margin-left: 15px;}
+    @media only screen and (min-width:451px)and (max-width:960px) {
+        margin-top: 10px;
+        width: 20%;
+        margin-left: 15px;
+    }
+
+}
+
+.imagenes-redes {
+    align-items: center;
+    width: 50px;
+    height: 400px;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: -350px;
+
+
+    .logo-wsp {
+        width: 80px;
+        @media only screen and (max-width:450px){ display: none;}
+        @media only screen and (min-width:451px)and (max-width:960px) {
+            width: 30px;
+        }
+    }
+
+    .logo-instagram {
+        width: 80px;
+        @media only screen and (max-width:450px){ display: none;}
+        @media only screen and (min-width:451px)and (max-width:960px) {
+            width: 30px;
+        }
+    }
+
+    .logo-facebook {
+        width: 35px;
+        margin-left: 20px;
+        margin-top: 10px;
+        @media only screen and (max-width:450px){ display: none;}
+        @media only screen and (min-width:451px)and (max-width:960px) {
+            width: 10px;
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+    }
+    @media only screen and (max-width:450px){    align-items: center;
+        width: 5px;
+        height: 100px;
+        position: absolute;
+        margin-left: 330px;
+        margin-top: -350px;}
+    @media only screen and (min-width:451px)and (max-width:960px) {
+        align-items: center;
+        width: 5px;
+        height: 100px;
+        position: absolute;
+        margin-left: 330px;
+        margin-top: -350px;
+    }
+}
+
+
+.parrafo-redes {
+    align-items: center;
+    width: 250px;
+    height: 400px;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: -330px;
+    color: white;
+
+    .numero {
+        font-size: 20px;
+        font-weight: 400;
+        @media only screen and (max-width:450px){ display: none;}
+        @media only screen and (min-width:451px)and (max-width:960px){
+            font-size: 10px;
+   
+          }
+    }
+
+    .insta {
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 60px;
+        @media only screen and (max-width:450px){ display: none;}
+        @media only screen and (min-width:451px)and (max-width:960px){
+            font-size: 10px;
+            margin-top: 10px;
+   
+          }
+    }
+
+    .face {
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 60px;
+        @media only screen and (max-width:450px){ display: none;}
+        @media only screen and (min-width:451px)and (max-width:960px){
+            font-size: 10px;
+            margin-top: 10px;
+          }
+    }
+    @media only screen and (max-width:450px){ display: none;}
+    @media only screen and (min-width:451px)and (max-width:960px){  
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        margin-left: 370px;
+        margin-top: -340px;
+        color: white;}
+}
+
+.div-nota-pie {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 99%;
+    position: relative;
+
+    .nota-pie {
+        font-size: 15px;
+        font-weight: 300;
+        margin-left: 30px;
+        @media only screen and (max-width:450px){ font-size: 10px;
+            font-weight: 80;
+            margin-left: 10px;}
+        @media only screen and (min-width:451px)and (max-width:960px){
+            font-size: 10px;
+            font-weight: 100;
+            margin-left: 10px;}
+    }
+    @media only screen and (max-width:450px){ margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        width: 70%;
+        position: relative;}
+    @media only screen and (min-width:451px)and (max-width:960px){   margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        width: 70%;
+        position: relative;}
+}

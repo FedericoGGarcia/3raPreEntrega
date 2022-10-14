@@ -1,0 +1,146 @@
+.div-ubicacion {
+    margin-top: 50px;
+    width: 40%;
+    margin-left: 40px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    opacity: 80%;
+    border-radius: 20px;
+
+    .ubicacion-titulo {
+        font-size: 25px;
+        color: white;
+        font-weight: 400;
+        @media only screen and (min-width:451px)and (max-width:960px){font-size: 15px;
+            color: white;
+            font-weight: 400;}
+      
+   @media only screen and (max-width:450px){font-size: 10px;
+    color: white;
+    font-weight: 400;}
+    }
+    @media only screen and (min-width:451px)and (max-width:960px){ margin-top: 50px;
+        width: 20%;
+        margin-left: 40px;
+        background-color: gray;
+        display: flex;
+        justify-content: center;
+        opacity: 80%;
+        border-radius: 20px;
+    }
+      
+   @media only screen and (max-width:450px){   margin-top: 50px;
+    width: 20%;
+    margin-left: 40px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    opacity: 80%;
+    border-radius: 20px;}
+}
+
+.div-mapa {
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 60%;
+
+    .mapa {
+        width: 70%;
+        margin-bottom: 30px;
+        @media only screen and (min-width:451px)and (max-width:960px){ width: 60%;
+            margin-bottom: 30px;}
+      
+   @media only screen and (max-width:450px){ width: 40%;
+    margin-bottom: 30px;}
+    }
+    @media only screen and (min-width:451px)and (max-width:960px){ margin-top: 30px;
+        margin-left: 40px;
+        width: 60%;}
+      
+   @media only screen and (max-width:450px){ margin-top: 30px;
+    margin-left: 20px;
+    width: 60%;}
+}
+
+.div-direccion {
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    margin-left: 80px;
+    margin-top: -495px;
+    position: absolute;
+
+    .direccion {
+        color: white;
+        font-size: 25px;
+        font-weight: 400;
+        margin-right: 100px;
+        text-decoration: underline;
+        @media only screen and (min-width:451px)and (max-width:960px){ color: white;
+            font-size: 15px;
+            font-weight: 400;
+            margin-right: 100px;
+            text-decoration: underline;}
+      
+   @media only screen and (max-width:450px){ color: white;
+    font-size: 10px;
+    font-weight: 400;
+    margin-right: 100px;
+    text-decoration: underline;}
+    }
+  
+}
+
+.div-parrafo-direccion {
+    width: 20%;
+    display: flex;
+    justify-content: end;
+    margin-left: 690px;
+    margin-top: -420px;
+    position: absolute;
+
+    .parrafo-direccion {
+        color: white;
+        font-size: 15px;
+        font-weight: 300;
+        @media only screen and (min-width:451px)and (max-width:960px){font-size: 12px;
+            font-weight: 300;}
+      
+   @media only screen and (max-width:450px){font-size: 8px;
+    font-weight: 300;}
+    }
+    @media only screen and (min-width:451px)and (max-width:960px){width: 20%;
+        display: flex;
+        justify-content: end;
+        margin-left: 250px;
+        margin-top: -420px;
+        position: absolute;}
+      
+   @media only screen and (max-width:450px){width: 20%;
+    display: flex;
+    justify-content: end;
+    margin-left: 200px;
+    margin-top: -420px;
+    position: absolute;}
+}
+
+.div-comollegar {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+
+    .como-llegar {
+        color: white;
+        font-size: 20px;
+        font-weight: 300;
+        @media only screen and (min-width:451px)and (max-width:960px){ font-size: 15px;}
+      
+   @media only screen and (max-width:450px){ font-size: 10px;}
+    }
+    @media only screen and (min-width:451px)and (max-width:960px){ width: 70%;}
+      
+   @media only screen and (max-width:450px){ width: 60%;}
+    
+}
