@@ -1,5 +1,5 @@
 .div-contactanos {
-    margin-top: 30px;
+    margin-top: 1%;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -8,21 +8,23 @@
         color: white;
         font-size: 25px;
         font-weight: 500;
-        margin-right: 320px;
+        margin-right: 5%;
     }
 
     .consultas {
         color: white;
         font-size: 25px;
         margin-right: 600px;
+        margin-right: 5%;
+        @media only screen and (max-width:450px){ display: none;}
     }
 }
 
 
 .form {
-    margin-top: 20px;
+    margin-top: 5%;
     width: 50%;
-    margin-left: 50px;
+    margin-left: 5%;
 
     ul {
 
@@ -31,15 +33,13 @@
             list-style: none;
         }
 
-        input {
+        input{
             border-radius: 10px;
-            font-family: 'Oswald', sans-serif;
             font-size: 14px;
             font-weight: 400;
         
             @media only screen and (min-width:451px)and (max-width:960px) {
                 border-radius: 10px;
-                font-family: 'Oswald', sans-serif;
                 font-size: 7px;
                 font-weight: 400;
             }
@@ -47,13 +47,13 @@
 
         textarea {
             resize: none;
-            font-family: 'Oswald', sans-serif;
-            font-size: 14px;
+            font-size: 12px;
             font-weight: 300;
+            @media only screen and (max-width:450px){font-weight: 600;
+                font-size: 8px;}
         }
 
         .div-enviar {
-            border: solid 1px;
             width: 20%;
 
             .enviar {
@@ -70,8 +70,8 @@
 
     }
     @media only screen and (max-width:450px){ margin-top: 10px;
-        width: 5%;
-        margin-left: 15px;}
+        width: 1%;
+        margin-left: 1%;}
     @media only screen and (min-width:451px)and (max-width:960px) {
         margin-top: 10px;
         width: 20%;
@@ -117,10 +117,10 @@
         }
     }
     @media only screen and (max-width:450px){    align-items: center;
-        width: 5px;
+        width: 1%;
         height: 100px;
         position: absolute;
-        margin-left: 330px;
+        margin-left: 20%;
         margin-top: -350px;}
     @media only screen and (min-width:451px)and (max-width:960px) {
         align-items: center;
@@ -193,6 +193,8 @@
     position: relative;
 
     .nota-pie {
+        margin-top: 5%;
+        margin-bottom: 20%;
         font-size: 15px;
         font-weight: 300;
         margin-left: 30px;

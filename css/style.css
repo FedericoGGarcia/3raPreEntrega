@@ -23,6 +23,11 @@ p {
   color: white;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 footer {
   margin-top: auto;
 }
@@ -58,14 +63,11 @@ main section .div-proximos-shows {
   border-radius: 40px;
 }
 main section .div-proximos-shows .h2-shows {
-  font-size: 30px;
-  color: white;
-  font-family: "Oswald", sans-serif;
-  font-weight: 300;
+  font-size: 40px;
 }
 @media only screen and (min-width: 451px) and (max-width: 960px) {
   main section .div-proximos-shows .h2-shows {
-    font-size: 40px;
+    font-size: 30px;
     color: white;
     font-family: "Oswald", sans-serif;
     font-weight: 300;
@@ -87,8 +89,8 @@ main section .div-proximos-shows .h2-shows {
     background-color: gray;
     opacity: 80%;
     border-radius: 40px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 }
 @media only screen and (max-width: 450px) {
@@ -99,8 +101,8 @@ main section .div-proximos-shows .h2-shows {
     background-color: gray;
     opacity: 80%;
     border-radius: 40px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 }
 main section .show-elpolaco .div-titulo-polaco {
@@ -122,10 +124,10 @@ main section .show-elpolaco .div-titulo-polaco .titulo-polaco:hover {
 @media only screen and (min-width: 451px) and (max-width: 960px) {
   main section .show-elpolaco .div-titulo-polaco .titulo-polaco {
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 400;
-    margin-right: 10px;
-    margin-left: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
     text-decoration: overline;
     margin-bottom: 20px;
     margin-top: 30px;
@@ -144,12 +146,10 @@ main section .show-elpolaco .div-titulo-polaco .titulo-polaco:hover {
 @media only screen and (min-width: 451px) and (max-width: 960px) {
   main section .show-elpolaco .div-titulo-polaco {
     color: white;
-    display: flex;
-    justify-content: center;
     text-decoration: overline;
     margin-bottom: 20px;
     margin-top: 70px;
-    margin-left: 20px;
+    margin-left: 10%;
   }
 }
 @media only screen and (max-width: 450px) {
@@ -160,24 +160,27 @@ main section .show-elpolaco .div-titulo-polaco .titulo-polaco:hover {
     text-decoration: overline;
     margin-bottom: 20px;
     margin-top: 70px;
-    margin-left: 20px;
+    margin-left: 10%;
   }
-}
-main section .show-elpolaco .div-imagen-polaco {
-  margin-top: 30px;
-  background-color: black;
-  opacity: 70%;
-  margin-left: 40px;
-  margin-right: 40px;
 }
 main section .show-elpolaco .div-imagen-polaco .imagen-polaco {
   width: 50%;
 }
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  main section .show-elpolaco .div-imagen-polaco .imagen-polaco {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  main section .show-elpolaco .div-imagen-polaco .imagen-polaco {
+    width: 100%;
+  }
+}
 main section .show-elpolaco .div-parrafo-polaco {
   width: 20%;
   position: absolute;
-  margin-top: -300px;
-  margin-left: 1050px;
+  margin-top: -20%;
+  margin-left: 70%;
 }
 main section .show-elpolaco .div-parrafo-polaco .parrafo-polaco {
   font-size: 20px;
@@ -187,32 +190,33 @@ main section .show-elpolaco .div-parrafo-polaco .parrafo-polaco {
   main section .show-elpolaco .div-parrafo-polaco .parrafo-polaco {
     font-size: 20px;
     color: white;
-    margin-left: 15px;
-    margin-right: 30px;
+    margin-left: 10%;
+    margin-right: 20%;
+    margin-bottom: 5%;
   }
 }
 @media only screen and (max-width: 450px) {
   main section .show-elpolaco .div-parrafo-polaco .parrafo-polaco {
     font-size: 10px;
     color: white;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
   }
 }
 @media only screen and (min-width: 451px) and (max-width: 960px) {
   main section .show-elpolaco .div-parrafo-polaco {
     width: 100%;
     margin-top: 0px;
-    margin-left: 15px;
-    margin-right: 30px;
+    margin-left: 2%;
+    margin-right: 10%;
   }
 }
 @media only screen and (max-width: 450px) {
   main section .show-elpolaco .div-parrafo-polaco {
     width: 100%;
-    margin-top: 0px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-top: 30px;
+    margin-left: 2%;
+    margin-right: 10%;
   }
 }
 main section .div-titulo-damasgratis {
@@ -233,15 +237,35 @@ main section .div-titulo-damasgratis .titulo-damasgratis:hover {
   color: yellow;
 }
 @media only screen and (min-width: 451px) and (max-width: 960px) {
-  main section .div-titulo-damasgratis {
+  main section .div-titulo-damasgratis .titulo-damasgratis {
     color: white;
-    font-size: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 20%;
+    margin-left: 10%;
+    text-decoration: overline;
+    margin-bottom: 20px;
+    margin-top: 10%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  main section .div-titulo-damasgratis .titulo-damasgratis {
+    color: white;
+    font-size: 15px;
     font-weight: 400;
     margin-right: 10px;
     margin-left: 20px;
     text-decoration: overline;
+    margin-top: 10%;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  main section .div-titulo-damasgratis {
+    color: white;
+    text-decoration: overline;
     margin-bottom: 20px;
-    margin-top: 30px;
+    margin-top: 70px;
+    margin-left: 10%;
   }
 }
 @media only screen and (max-width: 450px) {
@@ -252,26 +276,31 @@ main section .div-titulo-damasgratis .titulo-damasgratis:hover {
     text-decoration: overline;
     margin-bottom: 20px;
     margin-top: 70px;
-    margin-left: 20px;
+    margin-left: 10%;
   }
 }
 main section .div-imagen-damasgratis {
-  margin-top: 30px;
-  background-color: black;
-  opacity: 70%;
-  margin-left: 40px;
-  margin-right: 40px;
   display: flex;
   justify-content: end;
 }
 main section .div-imagen-damasgratis .imagen-damasgratis {
   width: 50%;
 }
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  main section .div-imagen-damasgratis .imagen-damasgratis {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  main section .div-imagen-damasgratis .imagen-damasgratis {
+    width: 100%;
+  }
+}
 main section .div-parrafo-damasgratis {
   width: 20%;
   position: absolute;
-  margin-top: -300px;
-  margin-left: 35px;
+  margin-top: -15%;
+  margin-left: 10%;
 }
 main section .div-parrafo-damasgratis .parrafo-damasgratis {
   font-size: 20px;
@@ -281,30 +310,32 @@ main section .div-parrafo-damasgratis .parrafo-damasgratis {
   main section .div-parrafo-damasgratis .parrafo-damasgratis {
     font-size: 20px;
     color: white;
-    margin-left: 15px;
-    margin-right: 30px;
+    margin-left: 10%;
+    margin-right: 20%;
   }
 }
 @media only screen and (max-width: 450px) {
   main section .div-parrafo-damasgratis .parrafo-damasgratis {
     font-size: 10px;
     color: white;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
   }
 }
 @media only screen and (min-width: 451px) and (max-width: 960px) {
   main section .div-parrafo-damasgratis {
     width: 100%;
     margin-top: 0px;
-    margin-left: 30px;
+    margin-left: 2%;
+    margin-right: 10%;
   }
 }
 @media only screen and (max-width: 450px) {
   main section .div-parrafo-damasgratis {
     width: 100%;
-    margin-top: 0px;
-    margin-left: 15px;
+    margin-top: 30px;
+    margin-left: 2%;
+    margin-right: 10%;
   }
 }
 main section .div-titulo-karina {
@@ -326,35 +357,33 @@ main section .div-titulo-karina .titulo-karina:hover {
 @media only screen and (min-width: 451px) and (max-width: 960px) {
   main section .div-titulo-karina .titulo-karina {
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 400;
-    margin-right: 10px;
-    margin-left: 20px;
+    margin-right: 5%;
+    margin-left: 10%;
     text-decoration: overline;
     margin-bottom: 20px;
-    margin-top: 30px;
+    margin-top: 10%;
   }
 }
 @media only screen and (max-width: 450px) {
   main section .div-titulo-karina .titulo-karina {
     color: white;
-    display: flex;
-    justify-content: center;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 5%;
+    margin-left: 10%;
     text-decoration: overline;
-    margin-bottom: 20px;
-    margin-top: 70px;
-    margin-left: 20px;
+    margin-top: 10%;
   }
 }
 @media only screen and (min-width: 451px) and (max-width: 960px) {
   main section .div-titulo-karina {
     color: white;
-    display: flex;
-    justify-content: center;
     text-decoration: overline;
     margin-bottom: 20px;
     margin-top: 70px;
-    margin-left: 20px;
+    margin-left: 10%;
   }
 }
 @media only screen and (max-width: 450px) {
@@ -365,24 +394,27 @@ main section .div-titulo-karina .titulo-karina:hover {
     text-decoration: overline;
     margin-bottom: 20px;
     margin-top: 70px;
-    margin-left: 20px;
+    margin-right: 10%;
   }
-}
-main section .div-imagen-karina {
-  margin-top: 30px;
-  background-color: black;
-  opacity: 70%;
-  margin-left: 40px;
-  margin-right: 40px;
 }
 main section .div-imagen-karina .imagen-karina {
   width: 50%;
 }
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  main section .div-imagen-karina .imagen-karina {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  main section .div-imagen-karina .imagen-karina {
+    width: 100%;
+  }
+}
 main section .div-parrafo-karina {
   width: 20%;
   position: absolute;
-  margin-top: -290px;
-  margin-left: 1050px;
+  margin-top: -15%;
+  margin-left: 70%;
 }
 main section .div-parrafo-karina .parrafo-karina {
   font-size: 20px;
@@ -392,31 +424,32 @@ main section .div-parrafo-karina .parrafo-karina {
   main section .div-parrafo-karina .parrafo-karina {
     font-size: 20px;
     color: white;
-    margin-left: 15px;
-    margin-right: 30px;
+    margin-left: 10%;
+    margin-right: 20%;
   }
 }
 @media only screen and (max-width: 450px) {
   main section .div-parrafo-karina .parrafo-karina {
     font-size: 10px;
     color: white;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
   }
 }
 @media only screen and (min-width: 451px) and (max-width: 960px) {
   main section .div-parrafo-karina {
     width: 100%;
     margin-top: 0px;
-    margin-left: 15px;
-    margin-right: 30px;
+    margin-left: 2%;
+    margin-right: 10%;
   }
 }
 @media only screen and (max-width: 450px) {
   main section .div-parrafo-karina {
     width: 100%;
-    margin-top: 0px;
-    margin-left: 15px;
+    margin-top: 30px;
+    margin-left: 2%;
+    margin-right: 10%;
   }
 }
 main .div-titulo-callejero {
@@ -439,35 +472,33 @@ main .div-titulo-callejero .titulo-callejero:hover {
 @media only screen and (min-width: 451px) and (max-width: 960px) {
   main .div-titulo-callejero .titulo-callejero {
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 400;
-    margin-right: 10px;
-    margin-left: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
     text-decoration: overline;
     margin-bottom: 20px;
-    margin-top: 30px;
+    margin-top: 10%;
   }
 }
 @media only screen and (max-width: 450px) {
   main .div-titulo-callejero .titulo-callejero {
     color: white;
-    display: flex;
-    justify-content: center;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 5%;
+    margin-left: 5%;
     text-decoration: overline;
-    margin-bottom: 20px;
-    margin-top: 70px;
-    margin-left: 20px;
+    margin-top: 10%;
   }
 }
 @media only screen and (min-width: 451px) and (max-width: 960px) {
   main .div-titulo-callejero {
     color: white;
-    display: flex;
-    justify-content: center;
     text-decoration: overline;
     margin-bottom: 20px;
     margin-top: 70px;
-    margin-left: 20px;
+    margin-right: 10%;
   }
 }
 @media only screen and (max-width: 450px) {
@@ -478,15 +509,10 @@ main .div-titulo-callejero .titulo-callejero:hover {
     text-decoration: overline;
     margin-bottom: 20px;
     margin-top: 70px;
-    margin-left: 20px;
+    margin-left: 5%;
   }
 }
 main .div-imagen-callejero {
-  margin-top: 30px;
-  background-color: black;
-  opacity: 70%;
-  margin-left: 40px;
-  margin-right: 40px;
   display: flex;
   justify-content: end;
   margin-bottom: 50px;
@@ -495,14 +521,22 @@ main .div-imagen-callejero .imagen-callejero {
   width: 50%;
 }
 @media only screen and (min-width: 451px) and (max-width: 960px) {
+  main .div-imagen-callejero .imagen-callejero {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  main .div-imagen-callejero .imagen-callejero {
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px) {
   main .div-imagen-callejero {
     margin-top: 30px;
     margin-bottom: 100px;
     background-color: black;
     opacity: 70%;
-    margin-left: 20px;
-    display: flex;
-    justify-content: end;
+    margin-left: 5%;
   }
 }
 @media only screen and (max-width: 450px) {
@@ -511,16 +545,14 @@ main .div-imagen-callejero .imagen-callejero {
     margin-bottom: 100px;
     background-color: black;
     opacity: 70%;
-    margin-left: 20px;
-    display: flex;
-    justify-content: end;
+    margin-left: 5%;
   }
 }
 main .div-parrafo-callejero {
   width: 20%;
   position: absolute;
-  margin-top: -300px;
-  margin-left: 35px;
+  margin-top: -20%;
+  margin-left: 10%;
 }
 main .div-parrafo-callejero .parrafo-callejero {
   font-size: 20px;
@@ -529,31 +561,35 @@ main .div-parrafo-callejero .parrafo-callejero {
 @media only screen and (min-width: 451px) and (max-width: 960px) {
   main .div-parrafo-callejero .parrafo-callejero {
     font-size: 20px;
-    margin-top: -100px;
+    margin-top: -5px;
     color: white;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 }
 @media only screen and (max-width: 450px) {
   main .div-parrafo-callejero .parrafo-callejero {
     font-size: 10px;
-    margin-top: -100px;
+    margin-top: auto;
     color: white;
+    margin-left: 20%;
+    margin-right: 20%;
   }
 }
 @media only screen and (min-width: 451px) and (max-width: 960px) {
   main .div-parrafo-callejero {
     width: 100%;
-    margin-top: 30px;
-    margin-left: 15px;
-    margin-right: 30px;
+    margin-top: auto;
+    margin-left: 2%;
+    margin-right: 10%;
   }
 }
 @media only screen and (max-width: 450px) {
   main .div-parrafo-callejero {
     width: 100%;
-    margin-top: 30px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-top: auto;
+    margin-left: 2%;
+    margin-right: 10%;
   }
 }
 
@@ -619,7 +655,6 @@ main .div-parrafo-callejero .parrafo-callejero {
   margin-bottom: 30px;
 }
 .container-main .container-grid .parrafo-pagos .pagos {
-  color: white;
   font-size: 20px;
   font-weight: 300;
 }
@@ -643,7 +678,7 @@ main .div-parrafo-callejero .parrafo-callejero {
 }
 
 .div-contactanos {
-  margin-top: 30px;
+  margin-top: 1%;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -652,44 +687,52 @@ main .div-parrafo-callejero .parrafo-callejero {
   color: white;
   font-size: 25px;
   font-weight: 500;
-  margin-right: 320px;
+  margin-right: 5%;
 }
 .div-contactanos .consultas {
   color: white;
   font-size: 25px;
   margin-right: 600px;
+  margin-right: 5%;
+}
+@media only screen and (max-width: 450px) {
+  .div-contactanos .consultas {
+    display: none;
+  }
 }
 
 .form {
-  margin-top: 20px;
+  margin-top: 5%;
   width: 50%;
-  margin-left: 50px;
+  margin-left: 5%;
 }
 .form ul li {
   list-style: none;
 }
 .form ul input {
   border-radius: 10px;
-  font-family: "Oswald", sans-serif;
   font-size: 14px;
   font-weight: 400;
 }
 @media only screen and (min-width: 451px) and (max-width: 960px) {
   .form ul input {
     border-radius: 10px;
-    font-family: "Oswald", sans-serif;
     font-size: 7px;
     font-weight: 400;
   }
 }
 .form ul textarea {
   resize: none;
-  font-family: "Oswald", sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 300;
 }
+@media only screen and (max-width: 450px) {
+  .form ul textarea {
+    font-weight: 600;
+    font-size: 8px;
+  }
+}
 .form ul .div-enviar {
-  border: solid 1px;
   width: 20%;
 }
 .form ul .div-enviar .enviar {
@@ -711,8 +754,8 @@ main .div-parrafo-callejero .parrafo-callejero {
 @media only screen and (max-width: 450px) {
   .form {
     margin-top: 10px;
-    width: 5%;
-    margin-left: 15px;
+    width: 1%;
+    margin-left: 1%;
   }
 }
 @media only screen and (min-width: 451px) and (max-width: 960px) {
@@ -777,10 +820,10 @@ main .div-parrafo-callejero .parrafo-callejero {
 @media only screen and (max-width: 450px) {
   .imagenes-redes {
     align-items: center;
-    width: 5px;
+    width: 1%;
     height: 100px;
     position: absolute;
-    margin-left: 330px;
+    margin-left: 20%;
     margin-top: -350px;
   }
 }
@@ -875,6 +918,8 @@ main .div-parrafo-callejero .parrafo-callejero {
   position: relative;
 }
 .div-nota-pie .nota-pie {
+  margin-top: 5%;
+  margin-bottom: 20%;
   font-size: 15px;
   font-weight: 300;
   margin-left: 30px;
@@ -983,7 +1028,7 @@ main .div-parrafo-callejero .parrafo-callejero {
 }
 @media only screen and (max-width: 450px) {
   .div-mapa .mapa {
-    width: 40%;
+    width: 70%;
     margin-bottom: 30px;
   }
 }
@@ -991,14 +1036,14 @@ main .div-parrafo-callejero .parrafo-callejero {
   .div-mapa {
     margin-top: 30px;
     margin-left: 40px;
-    width: 60%;
+    width: 70%;
   }
 }
 @media only screen and (max-width: 450px) {
   .div-mapa {
     margin-top: 30px;
     margin-left: 20px;
-    width: 60%;
+    width: 70%;
   }
 }
 
@@ -1014,7 +1059,7 @@ main .div-parrafo-callejero .parrafo-callejero {
   color: white;
   font-size: 25px;
   font-weight: 400;
-  margin-right: 100px;
+  margin-right: 5%;
   text-decoration: underline;
 }
 @media only screen and (min-width: 451px) and (max-width: 960px) {
@@ -1022,7 +1067,7 @@ main .div-parrafo-callejero .parrafo-callejero {
     color: white;
     font-size: 15px;
     font-weight: 400;
-    margin-right: 100px;
+    margin-right: 5%;
     text-decoration: underline;
   }
 }
@@ -1031,7 +1076,7 @@ main .div-parrafo-callejero .parrafo-callejero {
     color: white;
     font-size: 10px;
     font-weight: 400;
-    margin-right: 100px;
+    margin-right: 10%;
     text-decoration: underline;
   }
 }
@@ -1040,7 +1085,7 @@ main .div-parrafo-callejero .parrafo-callejero {
   width: 20%;
   display: flex;
   justify-content: end;
-  margin-left: 690px;
+  margin-left: 48%;
   margin-top: -420px;
   position: absolute;
 }
@@ -1048,6 +1093,7 @@ main .div-parrafo-callejero .parrafo-callejero {
   color: white;
   font-size: 15px;
   font-weight: 300;
+  margin-left: 48%;
 }
 @media only screen and (min-width: 451px) and (max-width: 960px) {
   .div-parrafo-direccion .parrafo-direccion {
@@ -1066,8 +1112,8 @@ main .div-parrafo-callejero .parrafo-callejero {
     width: 20%;
     display: flex;
     justify-content: end;
-    margin-left: 250px;
-    margin-top: -420px;
+    margin-left: 50%;
+    margin-top: -30;
     position: absolute;
   }
 }
@@ -1076,7 +1122,7 @@ main .div-parrafo-callejero .parrafo-callejero {
     width: 20%;
     display: flex;
     justify-content: end;
-    margin-left: 200px;
+    margin-left: 60%;
     margin-top: -420px;
     position: absolute;
   }
@@ -1086,12 +1132,13 @@ main .div-parrafo-callejero .parrafo-callejero {
   width: 80%;
   display: flex;
   justify-content: center;
-  margin-left: 100px;
+  margin-left: 10%;
 }
 .div-comollegar .como-llegar {
   color: white;
   font-size: 20px;
   font-weight: 300;
+  margin-bottom: 10%;
 }
 @media only screen and (min-width: 451px) and (max-width: 960px) {
   .div-comollegar .como-llegar {
@@ -1112,6 +1159,21 @@ main .div-parrafo-callejero .parrafo-callejero {
   .div-comollegar {
     width: 60%;
   }
+}
+
+/*   Extend    */
+.h2-shows {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+}
+
+.div-imagen-callejero, .div-imagen-karina, .div-imagen-polaco, .div-imagen-damasgratis {
+  margin-top: 30px;
+  background-color: black;
+  opacity: 70%;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 main .div-flow-titulo {

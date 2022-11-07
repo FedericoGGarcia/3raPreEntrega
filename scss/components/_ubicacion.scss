@@ -51,16 +51,17 @@
         @media only screen and (min-width:451px)and (max-width:960px){ width: 60%;
             margin-bottom: 30px;}
       
-   @media only screen and (max-width:450px){ width: 40%;
+   @media only screen and (max-width:450px){ 
+    width: 70%;
     margin-bottom: 30px;}
     }
     @media only screen and (min-width:451px)and (max-width:960px){ margin-top: 30px;
         margin-left: 40px;
-        width: 60%;}
+        width: 70%;}
       
    @media only screen and (max-width:450px){ margin-top: 30px;
     margin-left: 20px;
-    width: 60%;}
+    width: 70%;}
 }
 
 .div-direccion {
@@ -75,18 +76,18 @@
         color: white;
         font-size: 25px;
         font-weight: 400;
-        margin-right: 100px;
+        margin-right: 5%;
         text-decoration: underline;
         @media only screen and (min-width:451px)and (max-width:960px){ color: white;
             font-size: 15px;
             font-weight: 400;
-            margin-right: 100px;
+            margin-right: 5%;
             text-decoration: underline;}
       
    @media only screen and (max-width:450px){ color: white;
     font-size: 10px;
     font-weight: 400;
-    margin-right: 100px;
+    margin-right: 10%;
     text-decoration: underline;}
     }
   
@@ -96,7 +97,7 @@
     width: 20%;
     display: flex;
     justify-content: end;
-    margin-left: 690px;
+    margin-left: 48%;
     margin-top: -420px;
     position: absolute;
 
@@ -106,6 +107,7 @@
         font-weight: 300;
         @media only screen and (min-width:451px)and (max-width:960px){font-size: 12px;
             font-weight: 300;}
+            margin-left: 48%;
       
    @media only screen and (max-width:450px){font-size: 8px;
     font-weight: 300;}
@@ -113,14 +115,14 @@
     @media only screen and (min-width:451px)and (max-width:960px){width: 20%;
         display: flex;
         justify-content: end;
-        margin-left: 250px;
-        margin-top: -420px;
+        margin-left: 50%;
+        margin-top: -30;
         position: absolute;}
       
    @media only screen and (max-width:450px){width: 20%;
     display: flex;
     justify-content: end;
-    margin-left: 200px;
+    margin-left: 60%;
     margin-top: -420px;
     position: absolute;}
 }
@@ -129,12 +131,13 @@
     width: 80%;
     display: flex;
     justify-content: center;
-    margin-left: 100px;
+    margin-left: 10%;
 
     .como-llegar {
         color: white;
         font-size: 20px;
         font-weight: 300;
+        margin-bottom: 10%;
         @media only screen and (min-width:451px)and (max-width:960px){ font-size: 15px;}
       
    @media only screen and (max-width:450px){ font-size: 10px;}
